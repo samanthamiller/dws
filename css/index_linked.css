@@ -3,7 +3,12 @@
 		font:24px Helvetica;
 	}
 	
-		*p {
+	*p {
+		color:#663300; 
+		font:12px Helvetica;
+	}
+	
+	ol li {
 		color:#663300; 
 		font:12px Helvetica;
 	}
