@@ -3,12 +3,27 @@
 		font:24px Helvetica;
 	}
 	
+	ol li {
+		color:#663300; 
+		font:12px Helvetica;
+	}
+	
+	a:link {
+		color:#a1bd68; 
+		font:12px Helvetica;	
+	}
+	
+	a:hover {
+		color:#9de24f; 
+		font:12px Helvetica;
+	}
+	a:active {
+		color:#85db24; 
+		font:12px Helvetica;
+	}
+	
 	*p {
 		color:#663300; 
 		font:12px Helvetica;
 	}
 	
-	ol li {
-		color:#663300; 
-		font:12px Helvetica;
-	}
