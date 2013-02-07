@@ -1,0 +1,48 @@
+	h1 {
+		color:#330000; 
+		font:24px Helvetica;
+	}
+	
+	ol li {
+		color:#663300; 
+		font:12px Helvetica;
+	}
+	
+	a:link {
+		color:#a1bd68; 
+		font:12px Helvetica;	
+	}
+	
+	a:hover {
+		color:#9de24f; 
+		font:12px Helvetica;
+	}
+	a:active {
+		color:#85db24; 
+		font:12px Helvetica;
+	}
+	
+	* {
+		color:#663300; 
+		font:14px Helvetica;
+	}
+	
+	.header2	{
+		color:#330000; 
+		font:20px Helvetica
+	}
+	
+	#header3	{
+		color:#330000; 
+		font:18px Helvetica
+	}
+	
+	.thankyou:first-line{
+		color:#b3b12f;
+		font:14px Helvetica;
+	}
+	
+	ul li {
+		color:#330000; 
+		font:13px Helvetica;
+	}
