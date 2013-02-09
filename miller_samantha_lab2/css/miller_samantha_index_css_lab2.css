@@ -2,6 +2,12 @@ html {
 	background:#8F8C87;
 }
 
+h2 {
+	font:bold small-caps 18px/1.5 Helvetica;
+	text-decoration:underline;
+}
+
+
 p {
 	color:#473B31;
 	font-family:Helvetica;
