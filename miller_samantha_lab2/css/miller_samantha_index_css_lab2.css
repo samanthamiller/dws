@@ -3,6 +3,7 @@ html {
 }
 
 h2 {
+	color: rgba(21, 34, 69, .75);
 	font:bold small-caps 18px/1.5 Helvetica;
 	text-decoration:underline;
 }
