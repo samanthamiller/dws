@@ -1,3 +1,14 @@
- p {
- 	color: red;
- }
+html { 
+	background:#8F8C87;
+}
+
+p {
+	color:#473B31;
+	font-family:Helvetica;
+	font-size:14px;
+	font-style:normal;
+	text-align:left;
+	line-height:1.5em;
+	word-spacing:1px;
+	text-transform:lowercase;	
+}
