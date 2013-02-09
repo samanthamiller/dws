@@ -2,9 +2,21 @@ html {
 	background:#8F8C87;
 }
 
-h2 {
+h1 {
 	color: rgba(21, 34, 69, .75);
-	font:bold small-caps 18px/1.5 Helvetica;
+	font:bold small-caps bolder 22px/1.5 Helvetica;
+	text-decoration:underline;
+}
+
+h2 {
+	
+	color:#152245;
+	font-family:Helvetica;
+	font-size:18px;
+	font-style:bold;
+	font-variant:bold;
+	text-align:left;
+	line-height:1.5;
 	text-decoration:underline;
 }
 
