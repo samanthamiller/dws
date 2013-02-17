@@ -3,6 +3,36 @@ html {
 	font-family:Helvetica, sans-serif;
 }
 
+
+#main-content {
+    margin: 0 auto;
+    width: 960px;
+}
+
+#content {
+   width: 100%;
+}
+
+.column1 {
+	float: left;
+	width: 475px;
+}
+
+#gallery {
+	float:none;
+}
+
+/* 
+.column2 {
+	float: right;
+	width: 475px;
+}
+
+#gallery {
+	float:none;
+}
+ */
+
 h1 {
 	margin-top:0px;
 	float: left;
