@@ -3,74 +3,6 @@ html {
 	font: normal normal normal 16px/1.5 Arial, Helvetica, sans-serif;
 }
 
-/* Two Column Float */
-
-#main-content {
-    margin: 0 auto;
-    width: 960px;
-    
-}
-
-#content {
-   width: 100%;
-}
-
-#left {
-	margin: 0px 20px 10px;
-	padding: 9px;
-	float: left;
-	display: block;
-	width: 475px;
-	clear:right;
-}
-
-#right {
-	margin: 65px 20px 10px;
-	padding: 9px;
-	float: right;
-	display: block;
-	width: 475px;	
-}
-
-#sinbad{
-	float: right;
-	display: block;
-	width: 475px;
-	padding: 5px;
-}
-
-#gallery{
-	position: relative;
-	margin: 10px 0px 0px auto;
-	background: #f36283;
-	padding: 0;
-	list-style-type: none;
-}
-
-#gallery a{
-	float: left;
-	display: block;
-	width: auto;
-	margin: 0 auto;
-	padding: 2px 1px 2px;
-}
-
-
-
-#footer {
-	padding: 5px;
-	text-align: center;
-	clear: both;
-}	
-
-
-
-/* End of Two Column Float */
-
-h2 {
-	font-size:20px;
-}
-
 /* Navigation Start */
 
 h1 {
@@ -118,13 +50,95 @@ nav a {
 	
 nav a:hover {
 	color:rgb(115, 44, 29); 
-	font-size:14.5px/30px Helvetica, sans-serif;
 }
 	
 
 
 
 /* Navigation End */
+
+
+
+/* Two Column Float */
+
+#main-content {
+    margin: 0 auto;
+    width: 960px;
+    
+}
+
+#content {
+   width: 100%;
+}
+
+#left {
+	margin: 0px 20px 10px;
+	padding: 9px;
+	float: left;
+	display: block;
+	width: 475px;
+	clear:right;
+}
+
+#right {
+	margin: 65px 20px 10px;
+	padding: 9px;
+	float: right;
+	display: block;
+	width: 250px;	
+	clear:left;
+}
+
+#sinbad {
+	float: right;
+	clear:left;
+	display: block;
+	width: 475px;
+}
+
+
+
+#gallery{
+	position: relative;
+	margin: 10px 0px 0px auto;
+	padding: 0;
+	list-style-type: none;
+	
+}
+
+#gallery a{
+	float: left;
+	clear:right;
+	display: block;
+	width: auto;
+	margin: 0 auto;
+	padding: 2px 1px 2px;
+}
+
+#seealso {
+	float: left;
+	clear:right;
+	display:block;
+	width: 475px;
+	margin: 0 auto;
+	padding: 2px 1px 2px;
+}	
+	
+
+#footer {
+	padding: 5px;
+	text-align: center;
+	clear: both;
+}	
+
+
+
+/* End of Two Column Float */
+
+h2 {
+	font-size:20px;
+}
+
 
 
 p {
