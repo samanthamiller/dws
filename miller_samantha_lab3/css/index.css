@@ -75,7 +75,6 @@ nav a:hover {
 	margin: 0px;
 	padding: 9px;
 	float: left;
-	display: block;
 	width: 475px;
 	clear:right;
 }
@@ -84,14 +83,11 @@ nav a:hover {
 	margin:0px;
 	padding: 9px;
 	float: right;
-	display: block;
 	width: 250px;	
 	clear:left;
 }
 
 #sinbad {
-	clear:left;
-	display: block;
 	width: 250px;
 }
 
