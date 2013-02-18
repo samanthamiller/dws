@@ -13,23 +13,29 @@ html {
    width: 100%;
 }
 
-.column1 {
+#left {
 	float: left;
 	width: 475px;
+	margin-left: 0px;
 }
 
-#gallery {
-	float:none;
-}
-
-/* 
-.column2 {
+#right {
 	float: right;
 	width: 475px;
+	margin-left: 0px;	
 }
 
+#footer {
+	clear:both;
+}	
+
+/* 
 #gallery {
-	float:none;
+	clear:both;
+}
+
+#seealso {
+	clear:both;
 }
  */
 
