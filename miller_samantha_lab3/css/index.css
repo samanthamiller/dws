@@ -71,7 +71,7 @@ nav a:hover {
    width: 100%;
 }
 
-#left {
+.left {
 	margin: 0px;
 	padding: 9px;
 	float: left;
