@@ -1,0 +1,20 @@
+/* ----------------------
+------------- Navigation */
+
+nav ul {
+	list-style:none;
+	width:600px;
+	padding:0px;
+	overflow:hidden;
+	margin:0px auto;
+}
+
+nav li {
+	width:100px;
+	float:left;
+
+nav a {
+	background:url (images/nav.jpg) no-repeat;
+	display:block;
+	height:150px;
+}
