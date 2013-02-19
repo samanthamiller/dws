@@ -2,7 +2,7 @@
 ------------- Navigation */
 
 nav ul {
-	list-style:none;
+	list-style-type:none;
 	width:600px;
 	padding:0px;
 	overflow:hidden;
@@ -10,11 +10,12 @@ nav ul {
 }
 
 nav li {
-	width:100px;
+	width:200px;
 	float:left;
+}	
 
 nav a {
-	background:url (images/nav.jpg) no-repeat;
+	background:url(../images/nav.jpg) no-repeat;
 	display:block;
-	height:150px;
+	height:50px;
 }
