@@ -22,3 +22,18 @@ nav a {
 	white-space:no-wrap;
 	overflow:hidden;
 }
+
+/* ----------------------
+------------- Products Nav */
+
+.product {
+	background-position: 0px -50px;
+}
+
+.product:hover {
+	background-position: 0px -100px;
+}	
+
+.product:active {
+	background-position: 0px -150px;
+}	
