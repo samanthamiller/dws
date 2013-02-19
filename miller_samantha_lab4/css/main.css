@@ -23,17 +23,48 @@ nav a {
 	overflow:hidden;
 }
 
+
 /* ----------------------
 ------------- Products Nav */
 
-.product {
-	background-position: 0px -50px;
+.products {
+	background-position: 0px 0px;
 }
 
-.product:hover {
-	background-position: 0px -100px;
+.products:hover {
+	background-position: 0px -50px;
 }	
 
-.product:active {
-	background-position: 0px -150px;
+.products:active {
+	background-position: 0px -100px;
+}
+
+/* ----------------------
+------------- Shop Nav */
+
+.shop {
+	background-position: -200px -0px;
+}
+
+.shop:hover {
+	background-position: -200px -50px;
+}	
+
+.shop:active {
+	background-position: -200px -100px;
+}	
+
+/* ----------------------
+------------- Support Nav */
+
+.support {
+	background-position: -400px -0px;
+}
+
+.support:hover {
+	background-position: -400px -50px;
+}	
+
+.support:active {
+	background-position: -400px -100px;
 }	
