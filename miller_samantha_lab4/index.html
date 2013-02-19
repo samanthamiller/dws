@@ -8,9 +8,9 @@
 	
 	<body>
   	<div id="main-content">
-	<div id="content"></div>
+	<div id="content">
 		<header>
-				<section>
+		<section>
 					<h1 class="logo">Tron Gaming Products by Razer</h1>
 					<nav>
 						<ul>
@@ -22,7 +22,8 @@
 				</section>
 		</header>
 		
-  	<section id="cta">				
+  	
+		<div id="featured">		
       <h1>Razer Press Release</h1>
       <div><img src="images/tron-keyboard-main.jpg" alt="Photograph of the new Tron Gaming Keyboard by Razer"></div>
 			
@@ -32,9 +33,9 @@
            
       <p>Each TRON: Legacy product Designed by Razer™ features a luminescent blue glow that is reminiscent of the film aesthetic. Whether it's the keyboard with a detachable modular keypad or the illuminated mouse, gamers will feel as if they've been enveloped by the TRON universe and pulled into a digital world.</p>
       <a href="#" class="button">Buy Now!</a>
-  	</section>	
+  	</div>	<!-- closing the featured id -->
 		
-    <section>
+    <div class="content">
       <h2>Overview</h2>
       
       <p>Prepare to lay programs and fellow gamers to waste with the precision of a Lightcycle carving a jetwall. From the rez and derez lighting effects during startup and shutdown to the smooth black finish of the Hyperesponse keys, the backlit TRON® Gaming Keyboard Designed by Razer is exactly what you need to dominate the Game Grid. A detachable modular keypad, lighting effects triggered by in-game alerts, and fully programmable keys with macro capabilities almost turn this keyboard into a Recognizer capturing you in the TRON universe.</p>
@@ -49,20 +50,24 @@
         <dt>Flat Keys with Short Travel Distance and Immediate Actuation</dt>
         <dd>The flat slim keycaps of the chiclet keyboard are using Razer Hyperesponse technology and offer a short travel distance for immediate actuation of commands.</dd>
       </dl> 
-    </section>
+    </div> <!-- Closing div with class content -->
+    
         
-    <section>
-			<h2>Gallery</h2>
-			<ul>
-        <li><a href="#"><img src="images/frontview.jpg" alt="Front View of Tron"></a></li>
-        <li><a href="#"><img src="images/mainview.jpg" alt="Main View of Tron"></a></li>
-				<li><a href="#"><img src="images/sideview1.jpg" alt="One Side View of Tron"></a></li>
-				<li><a href="#"><img src="images/sideview2.jpg" alt="One Sade View of Tron"></a></li>
-				<li><a href="#"><img src="images/topview.jpg" alt="Top View of Tron"></a></li>
-			</ul>				
-    </section>
+    <div class="content">
+    <div id="gallery">
+		<h2>Gallery</h2>
+		<ul>
+        	<li><a href="#"><img src="images/frontview.jpg" alt="Front View of Tron"></a></li>
+        	<li><a href="#"><img src="images/mainview.jpg" alt="Main View of Tron"></a></li>
+			<li><a href="#"><img src="images/sideview1.jpg" alt="One Side View of Tron"></a></li>
+			<li><a href="#"><img src="images/sideview2.jpg" alt="One Sade View of Tron"></a></li>
+			<li><a href="#"><img src="images/topview.jpg" alt="Top View of Tron"></a></li>
+			</ul>	
+	</div> <!-- Closing id gallery -->				
+    </div> <!-- Closing class content -->
    			
-  	<aside>
+  	
+  	<div class="techspec">
     	<h2>Technical Specs</h2>
 			<ul>
 				<li>Light and Sound Effects at Startup and Shutdown</li>
@@ -76,11 +81,15 @@
         <li>Approximate Size : 458 mm / 18.04” (Length) x 170 mm / 6.70” (Width) x 31 mm / 1.21” (Height)</li>
         <li>Approximate Weight : 1520 g / 3.35 lbs</li>
 			</ul>
-		</aside>		
+		</div>	<!-- Closing class techspec -->
+				
 		
+		<div id="footer">
 		<footer>
     			<p>Copyright &copy; 1999- 2012 Razer USA Ltd. All rights reserved.</p>
 		</footer>
+		</div> <!-- Closing div for footer -->
+	</div>	<!-- Closing div for content -->
 	</div> <!-- Closing div for main-content	 -->
 	</body>
 </html>
