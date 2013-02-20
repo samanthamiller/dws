@@ -17,6 +17,8 @@ html {
 	/* IE6-9 */
 	background: linear-gradient(to bottom,  rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 );
+
+	font-family: 'Titillium Web', sans-serif;
 }
 
 /* ----------------------
@@ -31,6 +33,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', end
 
 #featuredimg {
 	text-align:center;
+}
+
+p {
+	font-size:14px;
 }
 
 /* ----------------------
@@ -159,14 +165,16 @@ nav a {
 .content {
 	float:left;
 	width:600px;
+	font-size:14px;
 }
 
 .techspec {
-	float: left;
-	clear:right;
+	float: right;
+	clear:left;
 	width: 275px;
 	margin:0px;
-	padding: 9px
+	padding-left: 9px
+	font-size;15px;
 }
 
 #gallery{
