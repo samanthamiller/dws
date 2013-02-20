@@ -29,6 +29,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', end
 	list-style-type:none;
 }	
 
+#featuredimg {
+	text-align:center;
+}
 
 /* ----------------------
 ------------- Logo */
@@ -159,11 +162,9 @@ nav a {
 }
 
 .techspec {
+	overflow:hidden;
 	float: left;
-	clear:right;
-	width: 475px;
-	margin: 0 auto;
-	padding: 2px 1px 2px;
+	width: 275px;
 }
 
 #gallery {
@@ -191,6 +192,8 @@ nav a {
 ------------- Button CTA */
 .button {
 	padding: 5px 5px 5px 5px;
+	border:solid 2px;
+	
 	
 	 /* Old browsers */
 	background: rgb(235,241,246); 
