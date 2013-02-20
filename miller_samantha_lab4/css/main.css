@@ -162,21 +162,24 @@ nav a {
 }
 
 .techspec {
-	overflow:hidden;
 	float: left;
+	clear:right;
 	width: 275px;
+	margin:0px;
+	padding: 9px
 }
 
-#gallery {
-	position: relative;
-	margin: 10px 0px 0px auto;
+#gallery{
+	width:600px;
+	height:100px;
 	padding: 0;
+	list-style-type: none;
 	
 }
 
-#gallery a {
+#gallery a{
 	float: left;
-	clear:right;
+	/* clear:right; */
 	width: auto;
 	margin: 0 auto;
 	padding: 2px 1px 2px;
