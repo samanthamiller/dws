@@ -1,6 +1,6 @@
 html {
 	background:rgb(166, 150, 119);
-	font-family: DeliciousRoman, Helvetica, Arial, sans-serif;
+	font: normal normal normal .875em/1.5 Helvetica, Arial, sans-serif;
 }
 
 /* Navigation Start */
@@ -8,7 +8,11 @@ html {
 h1 {
 	margin-top:0px;
 	float: left;
-	font-size:40px;
+	font: normal smallcaps bold 1.5em/1.5 Helvetica, Arial, sans-serif; /*20px*/
+}
+
+h2 {
+	font: normal normal bold 1.25em/1.5 Helvetica, Arial, sans-serif; /*20px*/
 }
 
 nav ul {
