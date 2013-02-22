@@ -117,6 +117,10 @@ header{
 	padding: 2% 1% 2%;
 }
 
+#gallery li{
+	max-width:100%;
+}
+
 #seealso {
 	float: left;
 	clear:right;
@@ -140,6 +144,11 @@ header{
 
 /* End of Two Column Float */
 
+img {
+	max-width:100%
+}
+
+
 li {
 	font: normal normal normal .938em/1.5 Helvetica, Arial, sans-serif;
 }
@@ -151,10 +160,55 @@ p {
 	font: normal normal normal .875em/1.5 Helvetica, Arial, sans-serif;
 }
 	
-/* Fontface */
-@font-face {
-    font-family: DeliciousRoman;
-    src: url(http://www.font-face.com/fonts/delicious/Delicious-Roman.otf);
-    font-weight:400;
+
+
+/* media */
+
+@media screen and (min-width: 481px) and (max-width: 760px){
+
+nav{
+	width: 100%;
+	float:none;
+	clear:both;
 }
-/* Fontface end */
+
+}
+
+@media screen and (min-width: 100px) and (max-width: 672px){
+
+nav{
+	width: 100%;
+	float:none;
+	clear:both;
+}
+
+nav ul {
+	float:right;
+	width: 100%;
+ 
+}
+
+nav li {
+	float:left;
+	width: 25%; /*100px*/	
+} 
+
+#gallery a{
+	float: none;
+}
+
+#right {
+	float: none;
+	clear:left;
+	width: 100%;	
+}
+
+.left {
+	float: none;
+	clear:left;
+	width: 100%;
+}
+
+}
+
+
