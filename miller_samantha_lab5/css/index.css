@@ -1,18 +1,26 @@
 html {
 	background:rgb(166, 150, 119);
-	font: normal normal normal .875em/1.5 Helvetica, Arial, sans-serif;
 }
 
-/* Navigation Start */
 
 h1 {
 	margin-top:0px;
 	float: left;
-	font: normal smallcaps bold 1.5em/1.5 Helvetica, Arial, sans-serif; /*20px*/
+	font: normal normal bold 1.5em/1.5 Helvetica, Arial, sans-serif; /*20px*/
 }
 
 h2 {
 	font: normal normal bold 1.25em/1.5 Helvetica, Arial, sans-serif; /*20px*/
+}
+
+
+/* Navigation Start */
+
+
+nav {
+	width: 40.81632653%; /*400px*/
+	float: right;
+	line-height: 1.5;
 }
 
 nav ul {
@@ -47,7 +55,7 @@ nav a {
 	color:rgb(38, 1, 1);
 	line-height:50px;
 	display:block;
-	font:14px/30px Helvetica, sans-serif;
+	font: normal normal normal .875em/1.5 Helvetica, Arial, sans-serif;
 	letter-spacing: .5px;
 
 }	
@@ -67,12 +75,19 @@ nav a:hover {
 
 #main-content {
     margin: 0 auto;
-    width: 960px;
+    max-width: 980px;
     
 }
 
 #content {
    width: 100%;
+}
+
+header{
+	padding: .102040816327% 0 .102040816327%; /*1px/980*/
+	margin: 0 0 01.020408163%; /*10px*/
+	overflow: hidden;
+	width: 100%;
 }
 
 .left {
@@ -113,6 +128,7 @@ nav a:hover {
 	width: 475px;
 	margin: 0 auto;
 	padding: 2px 1px 2px;
+	
 }	
 	
 
@@ -120,6 +136,7 @@ nav a:hover {
 	padding: 5px;
 	text-align: center;
 	clear: both;
+	font: normal normal normal .875em/1.5 Helvetica, Arial, sans-serif;
 }	
 
 
@@ -128,15 +145,15 @@ nav a:hover {
 
 /* End of Two Column Float */
 
-h2 {
-	font-size:20px;
+li {
+	font: normal normal normal .938em/1.5 Helvetica, Arial, sans-serif;
 }
 
 
 
 p {
 	clear:both;
-	font-size:16px;
+	font: normal normal normal .875em/1.5 Helvetica, Arial, sans-serif;
 }
 	
 /* Fontface */
