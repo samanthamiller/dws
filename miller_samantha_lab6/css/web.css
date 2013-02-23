@@ -1,3 +1,21 @@
 #intellectual_business_solutions {
-	background-image:url(../images/logo.jpg);
+	background-image:url(../img/bg_header.jpg);
+}
+
+#intellectual_business_solutions a{
+	display:block;
+	width:760px;
+	height:278px;
+	text-decoration:none;
+	color:#ffffff;
+}
+
+h1 {
+	width:760px;
+	height:278px;
+	margin:0px auto;
+	white-space:nowrap;
+	overflow:hidden;
+	color:#ffffff;
+	font:italic normal bold 26px/1.5 Verdana, sans-serif;
 }
