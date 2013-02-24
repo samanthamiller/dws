@@ -30,13 +30,10 @@ body{
 }
 
 #global_shadow{
-	background:url(../img/global_shadow.png) no-repeat;
-	background-position:top -278;
+	background:url(../img/global_shadow.png) no-repeat scroll left 20px top transparent;
+	background-position:top;
 	width:220px;
-/* 
 	position:relative;
-	top:-278;
- */
 }	
 
 #content{
@@ -46,7 +43,7 @@ body{
 	top:-468px;
 	left:254px;
 	padding-top:15px;
-	padding-right:25px;
+	margin-left:25px;
 	width: 480px;
 	font: 12px/1.5 Verdana, sans-serif;
 	
@@ -100,6 +97,7 @@ h1 {
 	height:158px;
 	padding:0px;
 	margin:0px;
+	padding-left:20px;
 }	
 
 #nav li{
@@ -127,10 +125,11 @@ h1 {
  
  
 #quote {
-    background: url("../img/quote_left.gif") no-repeat scroll left top transparent;
+    background: url("../img/quote_left.gif") no-repeat scroll left 20px top transparent;
     color: #cccccc;
     margin: 75px 0 35px 5px;
     width: 100px;
+    padding-left:20px;
 }
 
 #quote p {
@@ -139,6 +138,7 @@ h1 {
     margin-left: 25px;
     padding-top: 5px;
     width: 170px;
+    padding-left:20px;
 }
 
 address {
@@ -146,6 +146,7 @@ address {
 	font: italic normal normal 12px Arial, sans-serif;
 	text-align:center;
 	width:215px;
+	padding-left:20px;
 }
 
 
@@ -154,4 +155,5 @@ address {
 	font: normal normal normal 12px Arial, sans-serif;
 	text-align:center;
 	width:215px;
+	padding-left:20px;
 }
