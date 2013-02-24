@@ -25,8 +25,10 @@ body{
  
 
 #global{
-	width: 760px;
-	
+	width: 216px;
+	background: #fff;
+	border-right:1px solid #dbdbdb;
+	border-left:1px solid #dbdbdb;
 }
 
 #global_shadow{
@@ -109,7 +111,7 @@ h2 {
 	list-style-type:none;
 	width:215px;
 	height:30px;
-	border:1px solid #dbdbdb;
+	border-bottom:1px solid #dbdbdb;
 }
 
 #nav a{
