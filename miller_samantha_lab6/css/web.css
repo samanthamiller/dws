@@ -30,7 +30,7 @@ body{
 }
 
 #global_shadow{
-	background:url(../img/global_shadow.png) no-repeat scroll left 20px top transparent;
+	background:url(../img/global_shadow.png) no-repeat;
 	background-position:top;
 	width:220px;
 	position:relative;
@@ -79,6 +79,11 @@ h1 {
 	white-space:nowrap;
 	overflow:hidden;
 } 
+
+h2 {
+	font:italic normal bold 26px/1.5 Verdana, sans-serif;
+	color:#4a7cb6;
+}
 
 #header {
 	font:italic normal bold 22px/1.5 Verdana, sans-serif;
