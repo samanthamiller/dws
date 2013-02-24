@@ -25,10 +25,11 @@ body{
  
 
 #global{
-	width: 216px;
+	width: 212px;
 	background: #fff;
 	border-right:1px solid #dbdbdb;
 	border-left:1px solid #dbdbdb;
+	margin:0 auto;
 }
 
 #global_shadow{
