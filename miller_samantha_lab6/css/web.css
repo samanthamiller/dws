@@ -34,7 +34,7 @@ body{
 #global_shadow{
 	background:url(../img/global_shadow.png) no-repeat;
 	width:800px;
-	/* position:relative; */
+	position:relative;
 }	
 
 #content{
@@ -63,6 +63,7 @@ body{
 }
 
 #intellectual_business_solutions a{
+	background: url("../img/bg_intellectual_business_solutions.png") no-repeat scroll 10px 9px transparent;
 	display:block;
 	width:760px;
 	height:278px;
