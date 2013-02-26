@@ -1,0 +1,38 @@
+body {
+	background:#FFD3AC;
+	color:#7C5330;
+	font:.75em/1.5em helvetica, sans-serif;
+	margin:100px auto 0;
+	width:960px;
+}
+
+label {
+	text-align:right;
+	float:left;
+	margin-left:100px;
+	padding-right:10px;
+	width:120px;
+}
+	
+input {
+	border-radius:2px;
+	border:1px #666;
+}
+
+input:visited {
+	border:3px #7FBBC8;
+}
+
+.profile-link-prefix {
+	display:none;
+}
+
+#field-agree-tos label, #field-agree-tos li{
+	width:700px;
+	list-style-type:none;
+}
+
+#submit {
+	/* float:right; */
+	width:100px;
+}
