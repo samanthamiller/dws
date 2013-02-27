@@ -1,87 +1,101 @@
-body{
-	background: #E5DFCA;
-	font: normal normal normal 14px/1.5 helvetica, arial, sans-serif;
-	color: #A99A90;
-	margin: 100px auto 0;
-	width: 790px;
+body {
+	background:#E5DFCA;
+	font:14px/1.5 Helvetica, sans-serif;
+	color:#A99A90;
+	margin:100px auto 0;
+	width:790px;
 }
 
-label{
-	text-align: right;
-	float: left;
-	width: 130px;
-	padding-right: 10px;
-}
-/*---------------- forms ---------------*/
-input{
-	border-radius: 2px;
-	border: 1px solid #666;
-	width: 200px;
+label {
+	text-align:right;
+	float:left;
+	width:130px;
+	padding-right:10px;
 }
 
-div{
-	margin-top: 10px;
+/* Forms */
+
+input {
+	border-radius:2px;
+	border:1px solid #666;
+	width:200px;
 }
 
-input:focus{
-	border: 2px solid #000;
+div {
+	margin-top:10px;
+}
+
+input:focus {
+	border:2px solid #000;
 }
 
 h1{
-	color: #61748C;
+	color:#61748C;
 }
 
-.profile-link-prefix{
-	display: none;
+.profile-link-prefix {
+	display:none;
 }
 
-/*----------------text areas----------------*/
-textarea{
-	border-radius: 2px;
-	border: 1px solid #666;
-	width: 300px;
+/* Text Area */
+
+textarea {
+	border-radius:2px;
+	border:1px solid #666;
+	width:300px;
 }
 
+/* Agree To and Radio buttons */
 
-/*---------agree tos/radio buttons----------*/
-#agree_tos, #male, #female{
-	width: 15px;
-	height: 15px;
+#agree_tos, #male, #female {
+	width:15px;
+	height:15px;
 }
 
 #field-agree-tos label {
-	width: 700px;
-	text-align: right;
+	width:700px;
+	text-align:right;
 }
 
-#field-agree-tos li{
+#field-agree-tos li {
 	list-style: none;
 }
-/*-------------- field set ------------*/
-fieldset{
-	border: none;
-	border: 1px solid #666;
+
+/* Feild Set */
+
+fieldset {
+	border:none;
+	border:1px solid #666;
 }
 
-/*---------------- buttons ------------*/
-#submit{
-	background: #A69D89;
+/* Submit Buttons */
+
+#submit {
+	background:#A69D89;
 	font-size: 16px;
-	border-radius: 10px;
-	float: right;
-	width: 150px;
-	height: 40px;
-	margin: 10px;
-	border: none;	
+	border:#61748C;
+	border-radius:5px;
+	float:right;
+	width:150px;
+	height:30px;
+	margin:10px;
 }
 
-
-#submit:hover{
-	background: #E0C7A3;
-	font-size: 16px;
+#submit:hover {
+	color:#61748C;
+	font-size:16px;
 }
 
-/*---------------log in-------------*/
-.log-in{
+/* Log In */
+
+.log-in {
 	text-align: right;
+}
+
+a:link {
+	color:#61748C;
+}	
+
+a:hover {
+	color:#FFFFFF;
 }
