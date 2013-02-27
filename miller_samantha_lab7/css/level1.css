@@ -1,38 +1,87 @@
-body {
-	background:#FFD3AC;
-	color:#7C5330;
-	font:.75em/1.5em helvetica, sans-serif;
-	margin:100px auto 0;
-	width:960px;
+body{
+	background: #FFF8D4;
+	font: normal normal normal 14px/1.5 helvetica, arial, sans-serif;
+	color: #666;
+	margin: 100px auto 0;
+	width: 790px;
 }
 
-label {
-	text-align:right;
-	float:left;
-	margin-left:100px;
-	padding-right:10px;
-	width:120px;
+label{
+	text-align: right;
+	float: left;
+	width: 130px;
+	padding-right: 10px;
 }
-	
-input {
-	border-radius:2px;
-	border:1px #666;
-}
-
-input:visited {
-	border:3px #7FBBC8;
+/*---------------- forms ---------------*/
+input{
+	border-radius: 2px;
+	border: 1px solid #666;
+	width: 200px;
 }
 
-.profile-link-prefix {
-	display:none;
+div{
+	margin-top: 10px;
 }
 
-#field-agree-tos label, #field-agree-tos li{
-	width:700px;
-	list-style-type:none;
+input:focus{
+	border: 2px solid #000;
 }
 
-#submit {
-	/* float:right; */
-	width:100px;
+h1{
+	color: #D95F76;
+}
+
+.profile-link-prefix{
+	display: none;
+}
+
+/*----------------text areas----------------*/
+textarea{
+	border-radius: 2px;
+	border: 1px solid #666;
+	width: 300px;
+}
+
+
+/*---------agree tos/radio buttons----------*/
+#agree_tos, #male, #female{
+	width: 15px;
+	height: 15px;
+}
+
+#field-agree-tos label {
+	width: 700px;
+	text-align: right;
+}
+
+#field-agree-tos li{
+	list-style: none;
+}
+/*-------------- field set ------------*/
+fieldset{
+	border: none;
+	border: 1px solid #666;
+}
+
+/*---------------- buttons ------------*/
+#submit{
+	background: #F2BF5E;
+	font-size: 16px;
+	border-radius: 10px;
+	float: right;
+	width: 150px;
+	height: 40px;
+	margin: 10px;
+	border: none;	
+}
+
+
+#submit:hover{
+	background: #FFC963;
+	font-size: 16px;
+}
+
+/*---------------log in-------------*/
+.log-in{
+	text-align: right;
 }
